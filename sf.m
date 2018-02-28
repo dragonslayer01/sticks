@@ -15,11 +15,6 @@ function G = sf(I,n,k);
 %   thin boundaries less visible. A thick “stick” can be used to smooth 
 %   noise similar to a low-pass filter, with the addition of highlighting 
 %   broad region differences.
-%
-%   Source : "Prostate Ultrasound Image Processing" by Deian Stefan 
-%   and Pr. Hong Man
-
-% 08/07 T. Mervin
 
 S = sticks(n,k);  % generate a set of sticks filters
 m = 2*n-2;        % number of filters
